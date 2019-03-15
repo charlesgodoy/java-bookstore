@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "/data/", produces = MediaType.APPLICATION_JSON_VALUE)
-public class Admincontroller {
+public class Datacontroller {
 
     @Autowired
     Authorrepository authorrepos;
